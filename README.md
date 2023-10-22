@@ -27,11 +27,13 @@ kubeclt config use-context <YOUR-CONTEXT>
 
 Then, apply the YAML files in the following order:
 
+```bash
 kubectl apply -f namespace.yaml
 kubectl apply -f pv.yaml
 kubectl apply -f pvc.yaml
 kubectl apply -f app.yaml
 kubectl apply -f service.yaml
+```
 
 [Pods](./prints/pods.png)
 
